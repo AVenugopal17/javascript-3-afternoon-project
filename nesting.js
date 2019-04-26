@@ -68,7 +68,9 @@ var workplaceAccidents = [12, 56, 44, 3, 29, 56, 56, 3, 7, 12];
     3. Return the updated array.
 */
 
-//Code Here
+let postTaxPrices = prices.map(function(n) {
+  return n * 1.07;
+});
 
 
 
